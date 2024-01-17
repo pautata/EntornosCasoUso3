@@ -1,8 +1,8 @@
-package Caso3;
+package EnCaso3;
 
 import java.util.Scanner;
 
-public class Triangulo {
+public class Caso3 {
 
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
