@@ -95,11 +95,15 @@ public class Caso3 {
         double lado = scanner.nextDouble();
         double volumen = Math.pow(lado, 3);
         System.out.println("El volumen del cubo es: " + volumen);
-    }
+    
 
     }
-    public static void area_cubo() {
- 
+    	 public static void area_cubo() {
+    	       Scanner scanner = new Scanner(System.in);
+    	       System.out.println("Ingrese la longitud de un lado del cubo:");
+    	       double lado = scanner.nextDouble();
+    	       double area = 6 * Math.pow(lado, 2);
+    	       System.out.println("El área del cubo es: " + area);
     }
 
 }
