@@ -69,6 +69,7 @@ public class Caso3 {
     }
     
     public static void area_cilindro() {
+
     	Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el radio de la base del cilindro:");
         double radio = scanner.nextDouble();
@@ -80,10 +81,16 @@ public class Caso3 {
     }
     
     public static void area_rectangulo() {
-
+    	Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese la longitud del rectángulo:");
+        double longitud = scanner.nextDouble();
+        System.out.println("Ingrese el ancho del rectángulo:");
+        double ancho = scanner.nextDouble();
+        double area = longitud * ancho;
+        System.out.println("El área del rectángulo es: " + area);
     }
     public static void volumen_cubo() {
-  
+    
     }
     public static void area_cubo() {
  
