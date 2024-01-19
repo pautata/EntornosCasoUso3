@@ -69,7 +69,8 @@ public class Caso3 {
     }
     
     public static void area_cilindro() {
-     	Scanner scanner = new Scanner(System.in);
+
+    	Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el radio de la base del cilindro:");
         double radio = scanner.nextDouble();
         System.out.println("Ingrese la altura del cilindro:");
