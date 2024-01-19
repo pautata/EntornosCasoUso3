@@ -58,12 +58,14 @@ public class Caso3 {
         System.out.println("El área del triángulo es: " + area);
     }
 
-    public static void area_circunferencia() {
-        
-    }
-
     public static void area_perimetro_circunferencia() {
-   
+    	Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el radio de la circunferencia:");
+        double radio = scanner.nextDouble();
+        double area = Math.PI * radio * radio;
+        double perimetro = 2 * Math.PI * radio;
+        System.out.println("El área de la circunferencia es: " + area);
+        System.out.println("El perímetro de la circunferencia es: " + perimetro);
     }
     
     public static void area_cilindro() {
